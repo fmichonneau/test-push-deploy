@@ -3,6 +3,8 @@
 REPO_ORG=fmichonneau
 REPO_NAME=test-push-deploy
 
+mkdir -p _data
+
 cd .. &&
     rm -rf amy-feeds &&
     git clone https://github.com/carpentries/amy-feeds.git amy-feeds &&
